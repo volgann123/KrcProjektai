@@ -1,0 +1,26 @@
+tr{
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+th, td{
+    border: black 1px solid;
+    padding: 30px;
+}
+table{
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+body{
+    background: #e3fcff;
+    
+}
+h1{
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    font-size:  64px;
+    color: #4d4d4d;
+
+}
