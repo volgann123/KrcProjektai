@@ -1,0 +1,59 @@
+tr{
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+th, td{
+    border: black 1px solid;
+    padding: 30px;
+}
+table{
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+body{
+    background: #e3fcff;
+    
+}
+h1{
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    font-size:  64px;
+    color: #4d4d4d;
+ 
+    
+
+}
+div{
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    
+}
+
+@keyframes example{
+    0% {background-color:transparent; transform:rotate(0deg) ;}
+    5% {background-color:transparent; transform:rotate(-10deg) ;}
+    10% {background-color:transparent; transform:rotate(-20deg) ;}
+    15% {background-color:transparent; transform:rotate(-30deg) ;}
+    20% {background-color:transparent; transform:rotate(-40deg) ;}
+    25% {background-color:transparent; transform:rotate(-40deg) ;}
+    30% {background-color:transparent; transform:rotate(-30deg) ;}
+    35% {background-color:transparent; transform:rotate(-20deg) ;}
+    40% {background-color:transparent; transform:rotate(-10deg) ;}
+    45% {background-color:transparent; transform:rotate(0deg) ;}
+    50% {background-color:transparent; transform:rotate(0deg) ;}
+    55% {background-color:transparent; transform:rotate(10deg) ;}
+    60% {background-color:transparent; transform:rotate(20deg) ;}
+    65% {background-color:transparent; transform:rotate(30deg) ;}
+    70% {background-color:transparent; transform:rotate(40deg) ;}
+    75% {background-color:transparent; transform:rotate(40deg) ;}
+    80% {background-color:transparent; transform:rotate(30deg) ;}
+    85% {background-color:transparent; transform:rotate(20deg) ;}
+    90% {background-color:transparent; transform:rotate(10deg) ;}
+    95% {background-color:transparent; transform:rotate(5deg) ;}
+    100% {background-color:transparent; transform:rotate(0deg) ;}
+}
